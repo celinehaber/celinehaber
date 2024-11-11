@@ -10,6 +10,11 @@ def factorielle(n):
         return resultat
 factorielle(7)
 
+def inverser_chaine(chaine):
+    return chaine[::-1]
 
+texte = "celinehaber"
+texte_inverse = inverser_chaine(texte)
+print(texte_inverse)
 
           
