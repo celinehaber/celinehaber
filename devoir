@@ -1,0 +1,15 @@
+def factorielle(n):
+    if n < 0:
+        return "La factorielle n'est pas définie pour les nombres négatifs."
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        resultat = 1
+        for i in range(2, n + 1):
+            resultat *= i
+        return resultat
+factorielle(7)
+
+
+
+          
